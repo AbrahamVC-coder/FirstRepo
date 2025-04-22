@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+ <html lang="es">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>ELVOLVERA | Desarrollo Web</title>
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="Prueba1.css">
+ 
+ </head>
+
+ <body class="bg-gray-100 text-gray-800">
+  <div class="Div-eslogan" style="background-image: url('imagenes/descarga.jpeg');">
+    <p class="eslogan" style="font-weight: bold; font-size: 50px;">Diseña una página web a tu medida...</p>
+  </div>
+  
+  <!-- Header -->
+  <header id="main-header" class="bg-gray-100 sticky top-0 z-50 transition-all">
+    <div class="navbar-container transition-all duration-300 p-6">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="flex items-center">
+          <img src="/imagenes/LogoE2.jpg" alt="Logo EVOLVERA" class="logo-bar">
+        </a>
+        <nav class="space-x-4">
+          <a href="#about" class="nav-link transition-colors duration-300 hover:underline">Sobre Nosotros</a>
+          <a href="#services" class="nav-link transition-colors duration-300 hover:underline">Servicios</a>
+          <a href="#templates" class="nav-link transition-colors duration-300 hover:underline">Plantillas</a>
+          <a href="#contact" class="nav-link transition-colors duration-300 hover:underline">Contacto</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sobre Nosotros Modificado    -->
+
+<section id="about" class="py-16 px-4">
+  <div class="container mx-auto">
+    <!-- Encabezado de sección -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-4">Sobre Nosotros</h2>
+      <p class="max-w-3xl mx-auto text-gray-600">
+        Somos un equipo especializado en el desarrollo web, enfocados en impulsar el crecimiento
+        digital de empresas a través de soluciones modernas, eficientes y de alta calidad.
+      </p>
+    </div>
+
+    <!-- Estadísticas -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
+      <div class="text-center p-6 bg-white rounded-lg shadow-md">
+        <div class="text-4xl font-bold text-blue-600 mb-2 counter">5+</div>
+        <p class="text-gray-600">Años de Experiencia</p>
+      </div>
+      <div class="text-center p-6 bg-white rounded-lg shadow-md">
+        <div class="text-4xl font-bold text-blue-600 mb-2 counter">150+</div>
+        <p class="text-gray-600">Proyectos Completados</p>
+      </div>
+      <div class="text-center p-6 bg-white rounded-lg shadow-md">
+        <div class="text-4xl font-bold text-blue-600 mb-2 counter">98%</div>
+        <p class="text-gray-600">Clientes Satisfechos</p>
+      </div>
+      <div class="text-center p-6 bg-white rounded-lg shadow-md">
+        <div class="text-4xl font-bold text-blue-600 mb-2 counter">24/7</div>
+        <p class="text-gray-600">Soporte Técnico</p>
+      </div>
+    </div>
+
+    <!-- Equipo -->
+    <h3 class="text-2xl font-semibold text-center mb-8">Nuestro Equipo</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+      <div class="bg-white rounded-lg overflow-hidden shadow-md">
+        <div class="h-64 bg-gray-200 flex items-center justify-center">
+
+          <!--NOTA: Podemos reemplazar con imagen real o mantener placeholder -->
+
+          <svg class="w-24 h-24 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div class="p-6">
+          <h4 class="font-bold text-xl mb-1">Nombre Apellido</h4>
+          <p class="text-blue-600 mb-3">Desarrollador Frontend</p>
+          <p class="text-gray-600">Especialista en crear interfaces modernas y experiencias de usuario excepcionales.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow-md">
+        <div class="h-64 bg-gray-200 flex items-center gap-8 justify-center">
+          <svg class="w-24 h-24 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div class="p-6">
+          <h4 class="font-bold text-xl mb-1">Nombre Apellido</h4>
+          <p class="text-blue-600 mb-3">Desarrollador Backend</p>
+          <p class="text-gray-600">Experto en arquitectura de sistemas y bases de datos optimizadas.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow-md">
+        <div class="h-64 bg-gray-200 flex items-center gap-8 justify-center">
+          <svg class="w-24 h-24 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div class="p-6">
+          <h4 class="font-bold text-xl mb-1">Nombre Apellido</h4>
+          <p class="text-blue-600 mb-3">Diseñador UX/UI</p>
+          <p class="text-gray-600">Creativo especializado en diseñar experiencias que conectan con los usuarios.</p>
+        </div>
+      </div>
+    </div>
+
+      <!--Aqui podemos incluir las tecnologias que manejamos como desarrolladores -->
+      <h3 class="text-2xl font-semibold text-center mb-8">Tecnologías que Dominamos</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 justify-items-center">
+
+        <!-- Logos de tecnologías - aun no se como ponerlas sin fondo jaja -->
+        <div class="flex flex-col items-center">
+          <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-2">
+            <span class="text-xl font-bold text-blue-600">HTML5</span>
+          </div>
+          <span class="text-sm">HTML5</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-2">
+            <span class="text-xl font-bold text-blue-600">CSS3</span>
+          </div>
+          <span class="text-sm">CSS3</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-2">
+            <span class="text-xl font-bold text-blue-600">JS</span>
+          </div>
+          <span class="text-sm">JavaScript</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-2">
+            <span class="text-xl font-bold text-blue-600">React</span>
+          </div>
+          <span class="text-sm">React</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-2">
+            <span class="text-xl font-bold text-blue-600">Node</span>
+          </div>
+          <span class="text-sm">Node.js</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-2">
+            <span class="text-xl font-bold text-blue-600">SQL</span>
+          </div>
+          <span class="text-sm">MySQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios Mejorados -->
+<section id="services" class="bg-white py-16 px-4">
+  <div class="container mx-auto">
+    <!-- Encabezado de sección -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-4">Nuestros Servicios</h2>
+      <p class="max-w-3xl mx-auto text-gray-600 mb-8">
+        Ofrecemos soluciones web integrales para impulsar tu presencia digital y
+        optimizar la experiencia de tus usuarios.
+      </p>
+    </div>
+
+    <!-- Tarjetas de servicios -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <!-- Servicio 1 -->
+      <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="h-20 bg-blue-600 flex items-center justify-center">
+          <!-- Icono de dispositivos -->
+          <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+          </svg>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-3">Diseño Web Responsivo</h3>
+          <p class="text-gray-600 mb-4">
+            Creamos sitios web que se adaptan perfectamente a todos los dispositivos, 
+            garantizando una experiencia óptima en móviles, tablets y computadoras.
+          </p>
+          <ul class="text-gray-600 mb-6 space-y-2">
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              Layouts adaptables
+            </li>
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              Optimización de imágenes
+            </li>
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              Accesibilidad web
+            </li>
+          </ul>
+          <a href="#contact" class="block text-center bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">
+            Solicitar servicio
+          </a>
+        </div>
+      </div>
+
+      <!-- Servicio 2 -->
+      <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="h-20 bg-blue-600 flex items-center justify-center">
+          <!-- Icono de código -->
+          <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+          </svg>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-3">Desarrollo a Medida</h3>
+          <p class="text-gray-600 mb-4">
+            Personalizamos cada proyecto para cumplir con tus objetivos específicos, 
+            implementando soluciones únicas para tu negocio.
+          </p>
+          <ul class="text-gray-600 mb-6 space-y-2">
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              Sistemas de gestión de contenido
+            </li>
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              Integraciones API
+            </li>
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              Aplicaciones web a medida
+            </li>
+          </ul>
+          <a href="#contact" class="block text-center bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">
+            Solicitar servicio
+          </a>
+        </div>
+      </div>
+
+      <!-- Servicio 3 -->
+      <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="h-20 bg-blue-600 flex items-center justify-center">
+          <!-- Icono de soporte -->
+          <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path>
+          </svg>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-3">Soporte y Mantenimiento</h3>
+          <p class="text-gray-600 mb-4">
+            Brindamos soporte técnico y mantenimiento continuo para mantener tu sitio 
+            actualizado, seguro y funcionando correctamente.
+          </p>
+          <ul class="text-gray-600 mb-6 space-y-2">
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              Actualizaciones de seguridad
+            </li>
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              Copias de seguridad
+            </li>
+            <li class="flex items-center" style="margin-bottom: 20px;">
+              <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              Soporte técnico 24/7
+            </li>
+          </ul>
+          <a href="#contact" class="block text-center bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">
+            Solicitar servicio
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Principal -->
+    <div class="text-center mt-12">
+      <p class="text-gray-600 mb-4">¿No encuentras lo que buscas? Ofrecemos soluciones personalizadas para cada cliente.</p>
+      <a href="#contact" class="inline-block bg-blue-600 text-white py-3 px-8 rounded-md hover:bg-blue-700 transition-colors text-lg font-medium">
+        Consultar servicios personalizados
+      </a>
+    </div>
+  </div>
+</section>
+
+  <!-- Plantillas -->
+  <section id="templates" class="py-16 px-4 text-center">
+    <h2 class="text-3xl font-bold mb-8">Plantillas Disponibles</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-white rounded-lg shadow-md overflow-hidden card">
+        <div class="w-full h-40 placeholder-img">Vista previa - Empresarial</div>
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Estilo Empresarial</h3>
+          <p>Ideal para negocios y profesionales.</p>
+          <a href="templates/template1.html" class="block mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Ver más</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden card">
+        <div class="w-full h-40 placeholder-img">Vista previa - Portafolio</div>
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Portafolio Creativo</h3>
+          <p>Perfecta para diseñadores y freelancers.</p>
+          <a href="templates/template2.html" class="block mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Ver más</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden card">
+        <div class="w-full h-40 placeholder-img">Vista previa - Gráficos</div>
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Plantilla de gráficos</h3>
+          <p>Funcionalidad para mostrar gráficos.</p>
+          <a href="templates/template3.html" class="block mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact" class="bg-blue-600 text-white py-16 text-center">
+    <h2 class="text-3xl font-bold mb-4">¿Listo para trabajar con nosotros?</h2>
+    <p class="mb-6">Contáctanos para crear tu próxima página web.</p>
+    <a href="#" class="inline-block bg-white text-blue-600 font-semibold py-2 px-6 rounded hover:bg-gray-100">Contáctanos</a>
+  </section>
+
+  <!-- Cambios dentro del Footer -->
+<footer class="bg-gray-900 text-white pt-12 pb-6">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      
+      <!-- Logo y descripción -->
+      <div class="md:col-span-1">
+        <div class="mb-4">
+          <img src="/imagenes/LogoE2.jpg" alt="EVOLVERA Logo" class="logo-bar">
+          <p class="text-gray-400 text-sm" style="margin-top: 10px;">
+            Soluciones web innovadoras para impulsar el crecimiento de tu negocio.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Enlaces rápidos -->
+      <div class="md:col-span-1">
+        <h4 class="text-lg font-semibold mb-4">Enlaces Rápidos</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="#about" class="hover:text-blue-400 transition-colors">Sobre Nosotros</a></li>
+          <li><a href="#services" class="hover:text-blue-400 transition-colors">Servicios</a></li>
+          <li><a href="#templates" class="hover:text-blue-400 transition-colors">Plantillas</a></li>
+          <li><a href="#contact" class="hover:text-blue-400 transition-colors">Contacto</a></li>
+        </ul>
+      </div>
+      
+      <!-- Servicios -->
+      <div class="md:col-span-1">
+        <h4 class="text-lg font-semibold mb-4">Servicios</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="#" class="hover:text-blue-400 transition-colors">Diseño Web</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">Desarrollo a Medida</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">E-Commerce</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">Mantenimiento Web</a></li>
+        </ul>
+      </div>
+      
+      <!-- Contacto -->
+      <div class="md:col-span-1">
+        <h4 class="text-lg font-semibold mb-4">Contacto</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li class="flex items-center">
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+            </svg>
+            <a href="mailto:evolvera2025@gmail.com" class="hover:text-blue-400 transition-colors">evolvera2025@gmail.com</a>
+          </li>
+          <li class="flex items-center">
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+            </svg>
+            <a href="tel:+5491112345678" class="hover:text-blue-400 transition-colors">+54 9 11 1234-5678</a>
+          </li>
+        </ul>
+        
+        <!-- Redes sociales -->
+        <div class="mt-6">
+          <h5 class="text-sm font-semibold mb-3">Síguenos</h5>
+          <div class="flex space-x-4">
+            <a href="https://www.facebook.com/profile.php?id=61575283259519" class="text-gray-400 hover:text-blue-500 transition-colors">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.059 10.059 0 01-3.126 1.195 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+              </svg>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-blue-700 transition-colors">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-black transition-colors">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Línea divisoria -->
+    <div class="border-t border-gray-800 pt-6">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <p class="text-sm text-gray-500 mb-4 md:mb-0">
+          © 2025 EVOLVERA. Todos los derechos reservados.
+        </p>
+        <div class="flex space-x-4 text-sm text-gray-500">
+          <a href="#" class="hover:text-gray-300 transition-colors">Términos y Condiciones</a>
+          <a href="#" class="hover:text-gray-300 transition-colors">Política de Privacidad</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const header = document.getElementById('main-header');
+      const esloganDiv = document.querySelector('.Div-eslogan');
+      
+      // Función para manejar el cambio de header en scroll
+      function handleScroll() {
+        if (window.scrollY > esloganDiv.offsetHeight - 100) {
+          header.classList.add('header-scrolled');
+        } else {
+          header.classList.remove('header-scrolled');
+        }
+      }
+      
+      // Escuchar evento de scroll
+      window.addEventListener('scroll', handleScroll);
+      
+      // Verificar al cargar la página
+      handleScroll();
+    });
+
+    // Agregar esto a tu archivo JS o en una etiqueta script al final del documento
+document.addEventListener('DOMContentLoaded', function() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounters();
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+  
+  const statsSection = document.querySelector('#about');
+  if (statsSection) {
+    observer.observe(statsSection);
+  }
+  
+  function animateCounters() {
+    const counters = document.querySelectorAll('.counter');
+    
+    counters.forEach(counter => {
+      const target = parseInt(counter.innerText);
+      let count = 0;
+      const speed = 2000 / target; // Ajusta la velocidad según el número
+      
+      const updateCount = () => {
+        const increment = target / 200;
+        
+        if (count < target) {
+          count += increment;
+          counter.innerText = Math.ceil(count) + '+';
+          setTimeout(updateCount, speed);
+        } else {
+          counter.innerText = target + '+';
+        }
+      };
+      
+      updateCount();
+    });
+  }
+});
+  </script>
+</body>
+</html>

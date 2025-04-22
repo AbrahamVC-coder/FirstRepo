@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+.video1
+{
+  width: 100%;
+}
+
+
+.video-grid
+{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.usuario
+{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.video-info
+{
+  font-family: Roboto ,sans-serif;
+}
+
+.foto-perfil
+{
+  width: 36px;
+  border-radius: 100px;
+}
+
+.video-titulo
+{
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  line-height: 20px;
+  margin-bottom: 0;
+
+}
+
+
+.video-autor,
+.video-stats
+{
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-autor
+{
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+}
+
+.video-grid-columns
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 22px;
+  padding: 20px;
+}
+
+@media (max-width: 800px)
+{
+  .video-grid-columns{
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (min-width: 751px) and (max-width: 999px)
+{
+  .video-grid-columns{
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+@media (min-width: 1000px)
+{
+  .video-grid-columns{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
+
+
+.video-time
+{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
+.videos-row
+{
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.usuario
+{
+  position: relative;
+  cursor: pointer;
+}
+.usuario .usuario-tooltip
+{
+  background-color: white;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  width: 200px;
+  bottom: -50px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.usuario:hover .usuario-tooltip
+{
+  opacity: 1;
+}
+
+.usuario-tooltip-des
+{
+  font-family: Roboto, Arial;
+  margin-left: 8px;
+  line-height: 20px;
+}
+
+.canal
+{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.subs
+{
+  font-size: 12px;
+  color: rgb(164, 162, 162);
+}
+
+
+
+
+
+

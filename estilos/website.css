@@ -1,0 +1,83 @@
+.producto
+{
+  text-align: start;
+
+}
+
+a
+{
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 113, 133);
+}
+
+a:hover 
+{
+  color: orange;
+}
+
+button
+{
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 15px;
+  margin-right: 8px;
+  border-style: solid;
+}
+
+ .producto-des
+{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.precio
+{
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 118, 0);
+  font-size: 12;
+  font-weight: bold;
+}
+
+.Entrega
+{
+  font-family: "Roboto", sans-serif;
+}
+
+.boton-carrito
+{
+  background-color: rgb(255, 216, 20);
+  border-color: rgb(255, 216 , 20);
+  transition: background-color 0.15s,              opacity 0.15s;
+}
+
+.boton-carrito:hover
+{
+  background-color: rgb(255, 180, 20);
+}
+.boton-carrito:active
+{
+  opacity: 0.4;
+}
+
+.boton-comprar
+{
+  background-color: rgb(255, 164, 28);
+  border-color: rgb(255, 164, 28);
+  transition: background-color 0.15s,
+              opacity 0.15s;
+
+}
+
+.boton-comprar:hover
+{
+  background-color: rgb(255, 125, 25);
+}
+.boton-comprar:active
+{
+  opacity: 0.4;
+}
